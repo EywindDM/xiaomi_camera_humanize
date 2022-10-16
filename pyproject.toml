@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "xiaomi-video-humanize"
+version = "0.1.0"
+description = "humanize video and folder structure from xiaomi web cams"
+authors = ["Eywind <eywinddm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "xiaomi_video_humanize"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ffmpeg = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
